@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    font-size: 30px;
+    color: rgb(19, 20, 17);
+}
+nav div a{
+    margin-left: 50px;
+    color:rgb(27, 37, 18);
+    text-decoration: none;
+    font-size: 17px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.bodycontent{
+    width: 50%;
+    padding-top: 100px;
+}
+.bodycontent h4{
+    color: rgb(225, 187, 0);
+    text-transform: uppercase;
+}
+.bodycontent h1{
+    font-size: 70px;
+    color: #b01b1b;
+}
+.bodycontent p{
+    width: 70%;
+}
+.bodycontent div{
+    margin-top: 10px;
+}
+.bodycontent div .firstbutton{
+    padding: 5px 20px;
+    margin-left: 20px;
+    background-color: rgb(155, 23, 23);
+    color: rgb(207, 207, 19);
+    cursor: pointer;
+    border: 2px solid rgb(124, 201, 53);
+    border-radius: 5px;
+}
+.bodycontent div .secondbutton{
+    margin-left: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
+    background-color: rgb(214, 31, 98);
+    color: rgb(230, 209, 21);
+    border: 2px solid rgb(124, 201, 53);
+}
+.imagecontent{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+}
+.imagecontent img{
+    width: 100%;
+    display: flex;
+}
+.container{
+    display: flex;
+}
+.projectContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: darkgoldenrod;
+}
+.projectHeader{
+    width: 100%;
+    height: 150px;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projectHeader h1{
+    color: rgb(8, 177, 219);
+    font-size: 45px;
+}
+.projectHeader hr{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(186, 208, 13);
+    border: none;
+    border-radius: 10px;
+}
+.projectCard{
+    width: 100%;
+    height: 300px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.cardContainer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(240, 153, 153);
+    display: flex;
+    border-radius: 20px;
+}
+.cardContent{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(153, 240, 234);
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.cardcontent p{
+    width: 80%;
+    margin: 15px 0px;
+}
+.cardContent h1{
+    font-size: 30px;
+    color: rgb(19, 19, 19);
+}
+.cardContent p{
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+.cardContent button{
+    padding: 5px 20px;
+    background-color: white;
+    color: rgb(12, 232, 221);
+    font-size: 15px;
+    border:2px solid rgb(12, 232, 221);
+}
+.cardImage{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.cardImage img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+   
+}
+.social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.socialContainer img{
+    width: 30px;
+    height: 30px;
+}
+.capital{
+    text-transform: uppercase;
+    color: rgb(9, 76, 98);
+    margin-top: 10px;
+}
